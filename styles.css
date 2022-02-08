@@ -1,0 +1,44 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.header {
+    display: flex;
+}
+
+.link {
+    display: flex;
+    margin-left: auto;
+    gap: 16px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.top {
+    display: flex;
+    margin: auto
+}
+
+img {
+    max-width: 200px;
+    height: default;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-width: 375px;
+}
+
+button {
+    width: 80px;
+}
+
