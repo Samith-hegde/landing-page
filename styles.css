@@ -1,14 +1,28 @@
 body {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    gap: 75px;
+    flex: 1 1 auto;
 }
 
 ul {
     list-style-type: none;
 }
 
+.blue {
+    display: flex;
+    flex-direction: column;
+    background-color: #1F2937;
+    height: 350px;
+    width: 1000px;
+    align-items: center;
+    color: white;
+}
+
 .header {
     display: flex;
+    width: 700px;
 }
 
 .link {
@@ -23,12 +37,12 @@ a {
 
 .top {
     display: flex;
-    margin: auto
+    margin: auto;
 }
 
-img {
-    max-width: 200px;
-    height: default;
+.top-img {
+    width: 300px;
+    height: 150px;
 }
 
 .text {
@@ -40,5 +54,72 @@ img {
 
 button {
     width: 80px;
+    background-color: #3882F6;
+    color: #F9FAF8;
 }
 
+.middle-up {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+}
+
+.random-info {
+    display: flex;
+    margin: auto;
+    gap: 32px;
+}
+
+.below-img {
+    max-width: 140px;
+    height: default;
+}
+
+.subtext {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-width: 130px;
+}
+
+.fuck-this {
+    text-align: center;
+}
+
+.middle-middle {
+    display: flex;
+    flex-direction: column;
+    max-width: 350px;
+    flex-wrap: wrap;
+}
+
+.thor {
+    align-self: flex-end;
+}
+
+.middle-down {
+    display: flex;
+    width: 500px;
+}
+
+.button-down {
+    align-self: flex-end;
+}
+
+.awesome {
+    font-size: 48px;
+    font-weight: bold;
+    color: #F9FAF8;
+}
+
+a, .secondary {
+    font-size: 18px;
+    color: #E5E7EB
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
