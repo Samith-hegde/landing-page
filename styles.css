@@ -15,7 +15,7 @@ ul {
     display: flex;
     flex-direction: column;
     background-color: #1F2937;
-    height: 350px;
+    height: 500px;
     width: 1200px;
     align-items: center;
     color: white;
@@ -23,7 +23,7 @@ ul {
 
 .header {
     display: flex;
-    width: 900px;
+    width: 950px;
 }
 
 .link {
@@ -39,12 +39,12 @@ a {
 .top {
     display: flex;
     margin: auto;
-    gap: 20px;
+    gap: 32px;
 }
 
 .top-img {
-    width: 400px;
-    height: 200px;
+    width: 450px;
+    height: 225px;
 }
 
 .text {
@@ -55,9 +55,12 @@ a {
 }
 
 button {
-    width: 80px;
+    width: 100px;
     background-color: #3882F6;
     color: #F9FAF8;
+    padding: 8px 16px;
+    font-size: 16px;
+    border-radius: 8px;
 }
 
 .middle-up {
@@ -71,12 +74,14 @@ button {
 .random-info {
     display: flex;
     margin: auto;
-    gap: 32px;
+    gap: 72px;
 }
 
 .below-img {
-    max-width: 140px;
-    height: default;
+    width: 150px;
+    height: 150px;
+    border-radius: 10%;
+    border-color: #3882F6;
 }
 
 .subtext {
@@ -88,26 +93,59 @@ button {
 
 .fuck-this {
     text-align: center;
+    padding-top: 10px;
 }
 
 .middle-middle {
     display: flex;
     flex-direction: column;
-    max-width: 350px;
     flex-wrap: wrap;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    width: 800px;
+}
+
+.wrex {
+    display: flex;
+    align-items: center;
+    width: 1200px;
+    height: 500px;
+    background-color: #E5E7EB;
+    justify-content: center;
 }
 
 .thor {
     align-self: flex-end;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
 }
 
 .middle-down {
     display: flex;
-    width: 500px;
+    width: 800px;  
+    color: white;
+}
+
+.grunt {
+    display: flex;
+    align-items: center;
+    width: 1000px;
+    background-color: #3882F6;
+    justify-content: center;
+    height: 100px;
+}
+
+.action {
+    font-size: 20px;
+    font-weight: 900;   
 }
 
 .button-down {
-    align-self: flex-end;
+    align-self: center;
+    margin-left: auto;
+    border-color: white;
 }
 
 .awesome {
@@ -121,8 +159,27 @@ a, .secondary {
     color: #E5E7EB
 }
 
+.secondary {
+    padding: 12px 0;
+}
+
 .logo {
     font-size: 24px;
     color: #F9FAF8;
     font-weight: 700;
+}
+
+.pranav {
+    font-size: 36px;
+    font-weight: bolder;
+}
+
+.footer {
+    width: 1200px;
+    background-color: #1F2937;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
 }
